@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>Calculator</title>
 </head>
 
 <body>
-<div class="container">
- <div class="box">
-  <h1>Basic Calculator</h1>
-  <form id="basicCalculator" name="calc">
-  <input type="text"  value=""> </br>
-  <input type="button" value="0">
-  <input type="button" value="1">
-  <input type="button" value="2">
-  <input type="button" value="+"> </br>
-  <input type="button" value="3">
-  <input type="button" value="4">
-  <input type="button" value="5">
-  <input type="button" value="-"> </br>
-  <input type="button" value="6">
-  <input type="button" value="7">
-  <input type="button" value="8">
-  <input type="button" value="*"> </br>
-  <input type="button" value="9">
-  <input type="button" value="C">
-  <input type="button" value="=">
-  <input type="button" value="/">
-</form>
- </div>
+  <div class="container">
+    <div class="box">
+      <h1>Basic Calculator</h1>
+      <form id="basicCalculator" name="calc">
+        <input type="text" value=""> </br>
+        <input type="button" value="0">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="+"> </br>
+        <input type="button" value="3">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="-"> </br>
+        <input type="button" value="6">
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="*"> </br>
+        <input type="button" value="9">
+        <input type="button" value="C">
+        <input type="button" value="=">
+        <input type="button" value="/">
+      </form>
+    </div>
 
- <div class="box">
-  <h1>Percentage Tip Calculator</h1>
-  <form id =percentageTipCalculator>
-  <p>Bill Amount: <input id="amount"> </p> </br>
-  <p>Percentage Tip: <input id="percentage"> </p> </br>
-  <p>Tip amount: <input id="tip"> </p> </br>
-  <p>Total:<input id="total"> </p> </br>
-  <p><input id="up" type="submit" value="Calculate"> </p>
+    <div class="box">
+      <h1>Percentage Tip Calculator</h1>
+      <form id=percentageTipCalculator>
 
- </div>
+        <p>Bill Amount:</p> <input id="amount"> </br>
+        <p>Percentage Tip:</p> <input id="percentage"> </br>
+        <p>Tip amount:</p> <input id="tip" disabled> </br>
+        <p>Total: </p> <input id="total" disabled> </br>
+        <input id="up" type="submit" value="Calculate">
 
-</div>
-<script src="app.js"> </script>
+    </div>
+
+  </div>
+  <script src="app.js">
+  </script>
 </body>
-
 
 
 
